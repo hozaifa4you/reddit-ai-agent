@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import ora from 'ora';
 import type { AIMessage } from '@/types/types';
 

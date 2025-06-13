@@ -1,5 +1,6 @@
 import 'dotenv/config';
-import { runLLM } from './lib/llm';
+import { runAgent } from './lib/agent';
+import { z } from 'zod';
 
 const userMessage = process.argv[2];
 
@@ -8,10 +9,14 @@ if (!userMessage) {
    process.exit(1);
 }
 
-const response = await runLLM({
-   message: [{ role: 'user', content: userMessage }],
-   model: 'gpt-4o-mini',
-   temperature: 0.2,
+const weatherTool = {
+   name: 'get_weather',
+   parameters: z.object({}),
+};
+
+const response = await runAgent({
+   userMessage,
+   tools: [weatherTool],
 });
 
 console.log(response);
