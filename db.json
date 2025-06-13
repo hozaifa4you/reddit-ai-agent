@@ -1,100 +1,28 @@
 {
-  "messages": [
-    {
-      "id": "9d8fb4f7-b362-4eae-b5e9-19cf1a05cccb",
-      "createdAt": "2025-06-13T11:08:02.549Z",
-      "role": "user",
-      "content": "Hello dear"
-    },
-    {
-      "id": "a0c13019-fe24-412e-ade8-a3f59d0016e5",
-      "createdAt": "2025-06-13T11:08:04.030Z",
-      "role": "assistant",
-      "content": "Hello! How can I assist you today?"
-    },
-    {
-      "id": "184738e5-5165-499b-8fde-a87c7d880694",
-      "createdAt": "2025-06-13T11:11:28.875Z",
-      "role": "user",
-      "content": "Hello dear"
-    },
-    {
-      "id": "7c81f5bd-f442-4d57-81cb-7d59bc78fa1a",
-      "createdAt": "2025-06-13T11:11:30.020Z",
-      "role": "assistant",
-      "content": "Hello again! How can I help you today?"
-    },
-    {
-      "id": "806b1f49-e719-4f07-939a-e00110756bc9",
-      "createdAt": "2025-06-13T11:13:05.892Z",
-      "role": "user",
-      "content": "Hello dear"
-    },
-    {
-      "id": "ed857164-c557-48e9-b60b-cd908efba33d",
-      "createdAt": "2025-06-13T11:13:07.269Z",
-      "role": "assistant",
-      "content": "Hello! It seems like you're greeting me again. How can I assist you today?"
-    },
-    {
-      "id": "e7789049-4e1c-44a9-96b2-af3a7a588b84",
-      "createdAt": "2025-06-13T11:40:53.190Z",
-      "role": "user",
-      "content": "Hello dear, I am developer"
-    },
-    {
-      "id": "4c3be233-0419-45b5-9d51-a17e0d85db89",
-      "createdAt": "2025-06-13T11:40:56.033Z",
-      "role": "assistant",
-      "content": "Hello! It's great to meet a developer. What kind of projects are you working on, or is there something specific you'd like to discuss?"
-    },
-    {
-      "id": "9d5a9039-c499-4594-98d7-afa7701c9e9a",
-      "createdAt": "2025-06-13T11:49:25.839Z",
-      "role": "user",
-      "content": "What about the weather today?"
-    },
-    {
-      "id": "4171a63a-c018-4686-abad-77eaa3ebbf63",
-      "createdAt": "2025-06-13T11:49:27.080Z",
-      "role": "assistant",
-      "content": null
-    },
-    {
-      "id": "20dc0343-5a30-4ac0-b110-e8161bbf6a6d",
-      "createdAt": "2025-06-13T12:01:26.252Z",
-      "role": "user",
-      "content": "I want to get the weather today"
-    },
-    {
-      "id": "315e9ff3-78b2-4077-86d1-16fe6ea0d2e8",
-      "createdAt": "2025-06-13T12:01:47.910Z",
-      "role": "user",
-      "content": "I want to get the weather today"
-    },
-    {
-      "id": "79c36b41-7a4d-492e-9f3f-7f9303f4fa7a",
-      "createdAt": "2025-06-13T12:04:52.639Z",
-      "role": "user",
-      "content": "I want to get the weather today"
-    },
-    {
-      "id": "26ebbf27-7d53-46e1-8447-ce1dea7488f7",
-      "createdAt": "2025-06-13T12:06:23.258Z",
-      "role": "user",
-      "content": "I want to get the weather today"
-    },
-    {
-      "id": "59633b9b-2c4b-45ec-ab5c-5c322d4cbd95",
-      "createdAt": "2025-06-13T12:12:53.102Z",
-      "role": "user",
-      "content": "What is weather today?"
-    },
-    {
-      "id": "07aa2eb3-4a5a-4788-95b9-5407c732dea9",
-      "createdAt": "2025-06-13T12:15:43.547Z",
-      "role": "user",
-      "content": "How are you doday?"
-    }
-  ]
+   "messages": [
+      {
+         "id": "3b3f9253-d83d-45a5-9e2e-82e4a7738a6a",
+         "createdAt": "2025-06-13T12:21:53.842Z",
+         "role": "user",
+         "content": "How are you doday?"
+      },
+      {
+         "id": "b45b9ec9-1bf3-4b3b-afbe-dd660381d16d",
+         "createdAt": "2025-06-13T12:21:57.251Z",
+         "role": "assistant",
+         "content": "I'm just a computer program, so I don't have feelings, but I'm here and ready to help you! How can I assist you today?"
+      },
+      {
+         "id": "c8b66e59-4a3b-4a30-9808-9f5945945adc",
+         "createdAt": "2025-06-13T12:22:35.158Z",
+         "role": "user",
+         "content": "What is the current weather?"
+      },
+      {
+         "id": "bd66bc68-7c84-401d-bc1a-bf4b25c2316a",
+         "createdAt": "2025-06-13T12:22:37.048Z",
+         "role": "assistant",
+         "content": ""
+      }
+   ]
 }

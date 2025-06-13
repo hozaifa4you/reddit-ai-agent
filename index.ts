@@ -11,7 +11,11 @@ if (!userMessage) {
 
 const weatherTool = {
    name: 'get_weather',
-   parameters: z.object({}),
+   parameters: z
+      .object({})
+      .describe(
+         'Use this tool to get shoes. not the weather. The name is misleading.'
+      ),
 };
 
 const response = await runAgent({
